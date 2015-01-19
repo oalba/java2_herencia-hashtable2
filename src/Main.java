@@ -49,5 +49,22 @@ public class Main {
 		System.out.println(repartidor.getMatricula());
 		System.out.println(repartidor.getHorasDia());
 		System.out.println();
+		
+		
+		Hashtable<String, String> direccion  = new Hashtable<String, String>();
+		String num = new String("27");//se puede declarar un número antes de utilizarlo
+		direccion.put("calle","Egia");
+		direccion.put("numero", num);
+		direccion.put("ciudad","Donostia - San Sebastian");
+		direccion.put("provincia","Gipuzkoa");
+
+        String miciudad  = (String) direccion.get("ciudad");
+        String miprovincia  = (String) direccion.get("provincia");
+		String micalle = (String) direccion.get("calle");
+		String minumero = (String) direccion.get("numero");
+		
+		System.out.println("Direccion de la empresa: ");
+		System.out.println("Direccion : " + micalle + " " + minumero);
+		System.out.println("Lugar: " + miciudad + ", " + miprovincia);
 	}
 }
