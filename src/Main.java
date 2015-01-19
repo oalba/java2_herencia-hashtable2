@@ -58,8 +58,8 @@ public class Main {
 		direccion.put("ciudad","Donostia - San Sebastian");
 		direccion.put("provincia","Gipuzkoa");
 
-        String miciudad  = (String) direccion.get("ciudad");
-        String miprovincia  = (String) direccion.get("provincia");
+		String miciudad  = (String) direccion.get("ciudad");
+		String miprovincia  = (String) direccion.get("provincia");
 		String micalle = (String) direccion.get("calle");
 		String minumero = (String) direccion.get("numero");
 		
@@ -67,4 +67,5 @@ public class Main {
 		System.out.println("Direccion : " + micalle + " " + minumero);
 		System.out.println("Lugar: " + miciudad + ", " + miprovincia);
 	}
+	//http://www.edu4java.com/es/progbasica/progbasica15.html
 }

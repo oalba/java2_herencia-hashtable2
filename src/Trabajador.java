@@ -35,4 +35,12 @@ public class Trabajador {
 	public String getPuesto(){
 		return puesto;
 	}
+	/**/
+	public void imprimir() {
+		System.out.println("Nombre: " + getNombre());
+		System.out.println("DNI: " + getDni());
+		System.out.println("Puesto: " + getPuesto());
+
+	}
+	/**/
 }

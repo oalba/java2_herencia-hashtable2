@@ -14,4 +14,11 @@ public class Empleado extends Trabajador {
 	public int getSueldoMes(){
 		return sueldoMes;
 	}
+	/**/
+	@Override
+	public void printToConsole() {
+		super.printToConsole();
+		System.out.println(" portion: " + this.portion);
+	}
+	/**/
 }
