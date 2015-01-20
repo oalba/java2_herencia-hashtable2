@@ -16,9 +16,10 @@ public class Empleado extends Trabajador {
 	}
 	/**/
 	@Override
-	public void printToConsole() {
-		super.printToConsole();
-		System.out.println(" portion: " + this.portion);
+	public void imprimir() {
+		super.imprimir();
+		System.out.println("Nombre del jefe: " + getNomJefe());
+		System.out.println("Sueldo mensual: " + getSueldoMes());
 	}
 	/**/
 }

@@ -37,7 +37,7 @@ public class Trabajador {
 	}
 	/**/
 	public void imprimir() {
-		System.out.println("Nombre: " + getNombre());
+		System.out.println("Nombre: " + this.nombre);
 		System.out.println("DNI: " + getDni());
 		System.out.println("Puesto: " + getPuesto());
 

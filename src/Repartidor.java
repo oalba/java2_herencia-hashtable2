@@ -21,4 +21,13 @@ public class Repartidor extends Trabajador {
 	public int getHorasDia(){
 		return horasDia;
 	}
+	/**/
+	@Override
+	public void imprimir() {
+		super.imprimir();
+		System.out.println("Zona de reparto: " + getZonaReparto());
+		System.out.println("Matrícula del vehículo: " + getMatricula());
+		System.out.println("Horas diarias: " + getHorasDia());
+	}
+	/**/
 }

@@ -28,27 +28,30 @@ public class Main {
 
 		//Imprimir en pantalla
 		System.out.println("Jefe:");
-		System.out.println(jefe.getNombre());
+		jefe.imprimir();
+		/*System.out.println(jefe.getNombre());
 		System.out.println(jefe.getDni());
 		System.out.println(jefe.getPuesto());
 		System.out.println(jefe.getEmpresa());
 		System.out.println(jefe.getNumTrabajadores());
-		System.out.println();
+		System.out.println();*/
 		System.out.println("Empleado:");
-		System.out.println(empleado.getNombre());
+		empleado.imprimir();
+		/*System.out.println(empleado.getNombre());
 		System.out.println(empleado.getDni());
 		System.out.println(empleado.getPuesto());
 		System.out.println(empleado.getNomJefe());
 		System.out.println(empleado.getSueldoMes());
-		System.out.println();
+		System.out.println();*/
 		System.out.println("Repartidor:");
-		System.out.println(repartidor.getNombre());
+		repartidor.imprimir();
+		/*System.out.println(repartidor.getNombre());
 		System.out.println(repartidor.getDni());
 		System.out.println(repartidor.getPuesto());
 		System.out.println(repartidor.getZonaReparto());
 		System.out.println(repartidor.getMatricula());
 		System.out.println(repartidor.getHorasDia());
-		System.out.println();
+		System.out.println();*/
 		
 		
 		Hashtable<String, String> direccion  = new Hashtable<String, String>();
