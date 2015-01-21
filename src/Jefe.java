@@ -15,7 +15,7 @@ public class Jefe extends Trabajador {
 		return numTrabajadores;
 	}
 	/**/
-	@Override
+	//@Override
 	public void imprimir() {
 		super.imprimir();
 		System.out.println("Nombre de la empresa: " + getEmpresa());

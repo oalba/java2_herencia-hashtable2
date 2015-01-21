@@ -15,7 +15,7 @@ public class Empleado extends Trabajador {
 		return sueldoMes;
 	}
 	/**/
-	@Override
+	//@Override
 	public void imprimir() {
 		super.imprimir();
 		System.out.println("Nombre del jefe: " + getNomJefe());

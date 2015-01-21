@@ -27,7 +27,7 @@ public class Main {
 		repartidor.setHorasDia(8);
 
 		//Imprimir en pantalla
-		System.out.println("Jefe:");
+		System.out.println("\n---Jefe:---");
 		jefe.imprimir();
 		/*System.out.println(jefe.getNombre());
 		System.out.println(jefe.getDni());
@@ -35,7 +35,7 @@ public class Main {
 		System.out.println(jefe.getEmpresa());
 		System.out.println(jefe.getNumTrabajadores());
 		System.out.println();*/
-		System.out.println("Empleado:");
+		System.out.println("\n---Empleado:---");
 		empleado.imprimir();
 		/*System.out.println(empleado.getNombre());
 		System.out.println(empleado.getDni());
@@ -43,7 +43,7 @@ public class Main {
 		System.out.println(empleado.getNomJefe());
 		System.out.println(empleado.getSueldoMes());
 		System.out.println();*/
-		System.out.println("Repartidor:");
+		System.out.println("\n---Repartidor:---");
 		repartidor.imprimir();
 		/*System.out.println(repartidor.getNombre());
 		System.out.println(repartidor.getDni());
@@ -66,7 +66,7 @@ public class Main {
 		String micalle = (String) direccion.get("calle");
 		String minumero = (String) direccion.get("numero");
 		
-		System.out.println("Direccion de la empresa: ");
+		System.out.println("\n---Direccion de la empresa:---");
 		System.out.println("Direccion : " + micalle + " " + minumero);
 		System.out.println("Lugar: " + miciudad + ", " + miprovincia);
 	}

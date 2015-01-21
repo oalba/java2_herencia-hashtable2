@@ -22,7 +22,7 @@ public class Repartidor extends Trabajador {
 		return horasDia;
 	}
 	/**/
-	@Override
+	//@Override
 	public void imprimir() {
 		super.imprimir();
 		System.out.println("Zona de reparto: " + getZonaReparto());
